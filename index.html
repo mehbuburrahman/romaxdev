@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>RomaxDev</title>
+</head>
+
+<body>
+    <!-- animations -->
+    <header class="header">
+        <nav class=" fixed-top ">
+            <div class="container">
+                <div class="wrapper d-flex align-items-center justify-content-between">
+                    <div class="logo d-flex align-items-center mb-0 mb-md-3">
+                        <img style="width:100px; height: 50px;margin-left: -10px;" src="img/logo.png" alt="">
+                        <span class="mt-2">RomaxDev</span>
+                    </div>
+                    <input type="radio" name="slide" id="menu-btn">
+                    <input type="radio" name="slide" id="cancel-btn">
+                    <ul class="nav-links">
+                        <label for="cancel-btn" class="btn cancel-btn"> <i class="fas fa-times"></i>
+                                    </label>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="pricing.html" class="desktop-item">pricing</a></li>
+                        <li><a href="" class="desktop-item">Our services
+                                                <i class="fas fa-chevron-down" id="arrowDown"
+                                                      style=" font-size: 18px;"></i>
+                                          </a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Our services
+                                                <i class="fas fa-chevron-down" style=" font-size: 18px;"></i>
+                                          </label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <div class="row">
+                                        <img src="img/mega menu.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <header>Html website & Wordpress</header>
+                                        <ul class="mega-links">
+                                            <li><a href="website.html">WebsitesDemo</a></li>
+                                            <li><a href="wordpress.html">WordPressDemo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header>Mobile App Development</header>
+                                        <ul class="mega-links">
+                                            <li><a href="mobileapp.html">MobileappDemo</a></li>
+                                            <li><a href="website.html">WordPressDemo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header>video editing & Promo video</header>
+                                        <ul class="mega-links">
+                                            <li><a href="videoeditshort.html">ShortVIdeoAds</a></li>
+                                            <li><a href="mobilewebapppromo.html">MobileAppPromo</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="row">
+                                        <header>Graphics Design & logo design</header>
+                                        <ul class="mega-links">
+                                            <li><a href="graphicsdesign.html">LogoDesign</a></li>
+                                            <li><a href="brocuredesign.html">brochureDesign</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <a class="login" href="signup.html">Sign Up</a></li>
+                        <li><a class="login" href="signin.html">login</a></li>
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn"> <i class="fas fa-bars"></i> </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- hero section -->
+    <section class="bc">
+        <div class="container">
+            <div class="ideas-container">
+                <div class="ideas-item abtxt">
+                    <div class="hero1-h1">We Are <span class="true ">RomaxDev</span>
+                        <h1>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "We Can", "Make Website.", "Make Mobile App.", "Make video Editing.","make graphics design." ]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h1>
+                    </div>
+
+                    <p>All-in-one branding platform.RomaxDev offers you the best high-quality videos, mobile app development and websites with minimal time and effort.We are here to give you the best value of money products. so grab your business with unique
+                        ideas and products.</p>
+                    <button class="btn-grad1"><a href="signup.html" class="hero1-btn mb-4">get started</a></button>
+                </div>
+                <div class="ideas-item bc-img">
+
+                    <img src="img/header.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About us -->
+    <section class="ab">
+        <div class="container">
+            <div class="ideas-container">
+                <div class="ideas-item">
+
+                    <img src="img/aboutus.png" alt="">
+
+                </div>
+
+                <div class="ideas-item abtxt">
+                    <h3 class="">About Us</h3>
+                    <h1>What We Provide For Your Business</h1>
+                    <p>We take products through every stage necessary for their creation – Product Discovery, Business and User Research, UX/UI Design, Prototyping, Usability Testing, and future Product Improvements</p>
+                    <button class="btn-grad1"><a href="about.html" class="hero1-btn mb-4">more about</a></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- our  product what we provide -->
+
+    <section class="provide">
+        <div class="container">
+            <h2 class="text-center text-uppercase mb-5">What You Will Get</h2>
+            <div class="row px-3 px-md-0">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="provide-items-1 provide-items">
+                        <img src="img/mobileicon.png" alt="" class="image-1">
+                        <h5>Mobile App Development</h5>
+                        <p>High-performing, feature-packed and built to be both scalable and secure, able to handle any business and IT needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="provide-items-2 provide-items">
+                        <img src="img//webicon.png" alt="" class="image-2">
+                        <h5>Web Development</h5>
+                        <p>Client-focused, customer-centric, creating website solutions that deliver tangible business results.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="provide-items-3 provide-items">
+                        <img src="img/videoicon.png" alt="" class="image-3">
+                        <h5>Video Editing</h5>
+                        <p>High Quality video boost your product value and also your company.Short video ads mobile and promo will help you a lot.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="provide-items-4 provide-items">
+                        <img src="img/seo.png" alt="" class="image-4">
+                        <h5>SEO Optimizing</h5>
+                        <p>To show any website in search results, you need seo optimization.you will be on top on google search results.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="provide-items-5 provide-items">
+                        <img src="img/graphic.png" alt="" class="image-5">
+                        <h5>Graphic Design</h5>
+                        <p>For stay in the top you need to make logo and many more for your company.Graphic Design will help you to do that kind of work.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="provide-items-6 provide-items">
+                        <img src="img/wordpress.png" alt="" class="image-6">
+                        <h5>WordPress Development</h5>
+                        <p>If you want to use any cms for your project,then Wordpress is the best solutions for you to build website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our protfolio -->
+    <section class="protfolio">
+        <h3 class="text-center text-uppercase">our protfolio</h3>
+        <p class="text-center text-capitalize container">Our success lies in changing the game for our clients' brands. By focusing on customer outcomes, we build beautiful, engaging experiences that drive real business results.</p>
+        <div class="warpper-protfolio">
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+            <input class="radio" id="three" name="group" type="radio">
+            <input class="radio" id="four" name="group" type="radio">
+            <input class="radio" id="five" name="group" type="radio">
+            <div class="tabs text-center mb-3">
+                <label class="tab" id="one-tab" for="one">web development</label>
+                <label class="tab" id="two-tab" for="two">mobile app development</label>
+                <label class="tab" id="three-tab" for="three">video editing</label>
+                <label class="tab" id="four-tab" for="four">graphic design</label>
+                <label class="tab" id="five-tab" for="five">wordpress development</label>
+            </div>
+            <div class="panels">
+                <div class="panel" id="one-panel">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="food_resturent/foodwwebsite1/foodwebsite1.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="food_resturent/grocery website/grocery website.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="food_resturent/covid19.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="food_resturent/delivery website.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="food_resturent/protfolio.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="medical_beauty/plants/plant website.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="protfolio-btn" href="website.html">more work</a>
+                    </div>
+                </div>
+                <div class="panel" id="two-panel">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-1.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-2.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-3.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-4.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-5.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-6.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="protfolio-btn" href="mobileapp.html">more work</a>
+                    </div>
+                </div>
+                <div class="panel" id="three-panel">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/trick.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/PART-1.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/mobilepromo.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/website1.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/25 mb short video rownok.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-3 ">
+                            <div class="child-panel">
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                                      <source src="videos/My Video.mp4" type="video/mp4">
+                                                </video>
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="panel" id="four-panel">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-1.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-2.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-3.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-4.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-5.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="img/wb-6.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="protfolio-btn" href="graphicsdesign.html">more work</a>
+                    </div>
+                </div>
+                <div class="panel" id="five-panel">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="ecommerce_education/freefixeducation.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="ecommerce_education/lpadeducation.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="ecommerce_education/maguraecommerce.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="ecommerce_education/pathsalaeducation.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="ecommerce_education/scienceeducation.png" alt=""></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="child-panel"><img src="realstate_tecnology/udhosttechnology.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="protfolio-btn" href="wordpress.html">more work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- grab a coffee -->
+    <section class="ideas">
+        <div class="container">
+            <div class="ideas-container">
+
+                <div class="ideas-item abtxt">
+                    <h3 class="">YOUR IDEAS</h3>
+                    <h1>We’re just as excited <br>about your idea </h1>
+                    <p>We are a full service digital consultancy with experience and capacity to meet the needs of even the largest most complex of organizations in the world. Our services portfolio enables us to offer clients the best of experiences.</p>
+                </div>
+
+                <div class="ideas-item">
+
+                    <img src="img/ideas.png" alt="">
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- industries-->
+    <section class="industries">
+        <div class="container">
+            <div class="ideas-container">
+
+                <div class="ideas-item">
+
+                    <img src="img/industry.png" alt="">
+
+                </div>
+
+                <div class="ideas-item abtxt">
+                    <h3 class="">INDUSTRIES WE SERVE</h3>
+                    <h1>Developing Ideas,<br>Globally</h1>
+                    <p>Team Romaxdev prides itself in working side by side with business entities from several different industries around the world. We help you stand tall against your competition by expanding and improving your digital existence.</p>
+
+                    <div class="row mt-4 child-indus">
+                        <div class="col-4">
+                            <button>E-commrce</button>
+                        </div>
+                        <div class="col-4">
+                            <button>Medical</button>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <button>Government</button>
+                        </div>
+                        <div class="col-4">
+                            <button>Real Estate</button>
+                        </div>
+                        <div class="col-4">
+                            <button>Technology</button>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <button>Finance</button>
+                        </div>
+                        <div class="col-4">
+                            <button>Beauty</button>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <button>Education</button>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <button>Entertainment</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Product cart -->
+    <section class="testimonial">
+        <!-- featyre product carousel -->
+        <div class="title-section mb-5">
+            <h2 class="text-center text-uppercase">testimonials</h2>
+            <h1 class="text-center text-capitalize mt-3">What our valuable clients say</h1>
+        </div>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators d-none">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active ">
+                        <div class="row justify-content-center ">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div class="testi-img">
+                                        <img src="img/pic-1.png" alt="">
+                                    </div>
+                                    <h1>Rownok Mahbub.</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quis!
+                                    </p>
+                                    <div class="star-icon my-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div class="testi-img">
+                                        <img src="img/pic-2.png" alt="">
+                                    </div>
+                                    <h1>Reya Devlo.</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quis!
+                                    </p>
+                                    <div class="star-icon my-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div class="testi-img">
+                                        <img src="img/pic-3.png" alt="">
+                                    </div>
+                                    <h1>Anik Mahbub.</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quis!
+                                    </p>
+                                    <div class="star-icon my-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                        </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                        </button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- news latter section -->
+    <section class="news-latter">
+        <h3 class="text-center">personal</h3>
+        <h2 class="text-center">Know Us Better</h2>
+        <p class="text-center">Feel free to contact us regarding any queries or questions that you may have</p>
+        <div class="container card">
+            <form action="#">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-6	col-lg-12 col-md-12 inputBox">
+
+                        <input type="text" placeholder="Enter your Name">
+
+                    </div>
+                    <div class="col-xl-6	col-lg-12 col-md-12  inputBox">
+
+                        <input type="email" placeholder="Enter email here">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-6	col-lg-12 col-md-12 ">
+                        <div class="inputBox">
+                            <input type="text" placeholder="Phone Number with country code">
+                        </div>
+                    </div>
+                    <div class="col-xl-6	col-lg-12 col-md-12 inputBox">
+                        <select class="cs-select cs-skin-elastic ">
+                                                <option value="" disabled selected>Your Budget</option>
+                                                <option class="option" value="element_1" data-class="element_1">Less than $100</option>
+                                                <option value="element_2" data-class="element_2">Less than $200</option>
+                                                <option value="element_3" data-class="element_3">Less than $300</option>
+                                                <option value="element_3" data-class="element_3">Less than $400</option>
+                                                <option value="element_3" data-class="element_3">Less than $500</option>
+                                                <option value="element_3" data-class="element_3">Less than $600</option>
+                                                <option value="element_3" data-class="element_3">Less than $700</option>
+                                                <option value="element_3" data-class="element_3">Less than $800</option>
+                                                <option value="element_3" data-class="element_3">Less than $900</option>
+                                                <option value="element_3" data-class="element_3">Less than $1000</option>
+                                             </select>
+
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-12 col-md-12">
+                        <div class="sms">
+                            <textarea name="" placeholder="write your sms here tell us about your project here..."></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text-center col-12">
+                        <button class="btn-login">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- footer area -->
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center text-uppercase">services</h4>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>website Design </p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Wordpress Development</p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Mobile App Development</p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Graphic design</p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Seo Optimization</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center text-uppercase">company</h4>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>about us </p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>How it works </p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>packages </p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Graphic design </p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Seo Optimization </p>
+                    </a>
+
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4 class="text-center text-uppercase">about</h4>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>info.romaxdev@gmail.com</p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Address Dhaka United City Madani Avenue</p>
+                    </a>
+                    <a class="text-center text-capitalize text-decoration-none" href="">
+                        <p>Dhaka 1212 </p>
+                    </a>
+                    <h4 class="text-center text-uppercase">Follow Us</h4>
+                    <div class="text-center p-2">
+                        <a href=""> <i class="fab fa-facebook"></i></a>
+                        <a href=""> <i class="fab fa-instagram"></i></a>
+                        <a href=""> <i class="fab fa-dribbble"></i></a>
+                        <a href=""> <i class="fab fa-twitter"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4 class="text-start text-uppercase mt-5">we accept</h4>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-end">
+                    <img class="img-fluid" style="width: 100px; height: 100px; margin-top: 10px; padding-right:10px" src="img/bekash.png" alt="">
+                    <img class="img-fluid" style="width: 100px; height: 100px; margin-top: 10px; padding-right:10px" src="img/nogod.png" alt="">
+                    <img class="img-fluid" style="width: 100px; height: 100px; margin-top: 10px; padding-right:10px" src="img/payonner.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xl-6 col-xxl-6 col-sm-12 text-secondary row d-flex align-self-end">
+                    <p>all @copyright reserved to Romaxdev</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-xl-6 col-xxl-6 col-sm-12 text-secondary text-end">
+                    <p>made by <a class="text-capitalize text-decoration-none" href="https://www.facebook.com/rownokmahbub/">Mehbubur Rahman Rownok</a> </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- bootstrap js -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="style.js"></script>
+
+</body>
+
+</html>
